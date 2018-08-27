@@ -1,0 +1,16 @@
+class Base
+{
+	public static void show()
+	{
+		System.out.println("Hello Java!");
+	}
+}
+class Derived extends Base{
+}
+public class Invoking_methods_without_obj
+{
+	public static void main(String[] x)
+	{
+		Base.show();
+	}
+}
