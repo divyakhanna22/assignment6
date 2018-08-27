@@ -1,0 +1,19 @@
+class Demo
+{
+	int a;
+	Demo()
+	{
+		System.out.println("Default constructor!");
+	}
+	Demo(int a)
+	{
+		this();
+	}
+}
+public class Def_cons_thru_para_cons
+{
+	public static void main(String[] x)
+	{
+		Demo obj = new Demo();
+	}
+}
